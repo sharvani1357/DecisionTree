@@ -170,15 +170,6 @@ for d in [2, 4, 6, 8, 10]:
     })
 
 st.dataframe(pd.DataFrame(depth_results))
-
-# ---------------- Task 11: Final Recommendation ----------------
-st.header("1️⃣1️⃣ Final Recommendation")
-
-st.success(
-    "Decision Tree is recommended because it provides explainable, "
-    "rule-based decisions that can be easily understood by non-technical stakeholders."
-)
-
 # ---------------- Footer ----------------
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown(
